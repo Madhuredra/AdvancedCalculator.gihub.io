@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="scientific_calc.css">
+    <link rel="icon" href="data:image/png;base64,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">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+</head>
+<body>
+  <h2 class="sc">Scientific Calculator</h1>
+  <div class="bg"></div>
+    <div class="main">
+      <form name="form">
+        <div class="calc">
+          <input style="width:855px;" class="textview" name="textview"></input><br>
+        </form>
+          <table>
+              <tr>
+                  <td><input class="button" type="button" value="AC"onclick="cl()"></td>
+                  <td><input class="button" type="button" value="C" onclick="move()"></td>
+                  <td><input style="font-size: 30px;" class="button" type="button" value="÷" onkeypress="insert('/')" onclick="insert('/')"></td>
+                  <td><input class="button" type="button" value="mod" onkeypress="insert('%')" onclick="insert('%')"></td>
+                  <td><input class="button" type="button" value="(" onkeypress="insert('(')" onclick="insert('(')"></td>
+                  <td><input class="button" type="button" value="00" onclick="insert('00')"></td>
+              </tr>
+    
+              <tr>
+                  <td><input class="button" type="button" value="1" onkeypress="insert(1)" onclick="insert(1)"></td>
+                  <td><input class="button" type="button" value="2" onkeypress="insert(2)" onclick="insert(2)"></td>
+                  <td><input class="button" type="button" value="3" onkeypress="insert(3)" onclick="insert(3)"></td>
+                  <td><input class="button" type="button" value="x²" onclick="insert1(this.form)"></td>
+                  <td><input class="button" type="button" value=")" onkeypress="insert(')')" onclick="insert(')')"></td>
+                  <td><input style="font-size: 30px;" class="button" type="button" value="+" onkeypress="insert('+')" onclick="insert('+')"></td>
+                  
+              </tr>
+              <tr>
+                  <td><input class="button" type="button" value="4" onkeypress="insert(4)" onclick="insert(4)"></td>
+                  <td><input class="button" type="button" value="5" onkeypress="insert(5)" onclick="insert(5)" ></td>
+                  <td><input class="button" type="button" value="6" onkeypress="insert(6)" onclick="insert(6)" ></td>
+                  <td><input class="button" type="button" value="x³" onclick="insert2(this.form)"></td>
+                  <td><input class="button" type="button" value= "10ⁿ" onclick="power10()"></td>
+                  <td><input style="font-size: 40px;" class="button" type="button" value="-" onkeypress="insert('-')" onclick="insert('-')" ></td    </tr>
+              <tr>
+                  <td><input class="button" type="button" value="7" onkeypress="insert(7)" onclick="insert(7)" ></td>
+                  <td><input class="button" type="button" value="8" onkeypress="insert(8)" onclick="insert(8)" ></td>
+                  <td><input class="button" type="button" value="9" onkeypress="insert(9)" onclick="insert(9)"></td>
+                  <td><input class="button" type="button" value="1/x" onclick="insert3(this.form)"></td>
+                  <td><input class="button" type="button" value="|x|" onclick="mod()"></td>              
+                  <td><input class="button" type="button" value="X" onkeypress="insert('*')" onclick="insert('*')"></td>
+                </tr>
+              <tr>
+                <td><input class="button" type="button" value= "xⁿ" onclick="power()"></td>
+                <td><input class="button" type="button" value="x!" onclick="fact()"></td>
+                <td><input class="button" type="button" value="log" onclick="logg()"></td>
+                <td><input class="button" type="button" value="ln" onclick="ln()"></td>
+                <td><input class="button" type="button" value="√" onclick="insert6(document.form.textview.value)"></td>
+                <td><input class="button" type="button" value="³√" onclick="insert5(document.form.textview.value)"></td>
+            </tr>
+            <tr>
+              <td><input class="button" type="button" value= "sin" onclick="sin()"></td>
+              <td><input class="button" type="button" value="cos" onclick="cos()"></td>
+              <td><input class="button" type="button" value="tan" onclick="tan()"></td>
+              <td><input class="button" type="button" value="xⁿ" onclick="insert('**')"></td>
+              <td><input class="button" type="button" value="rad" onclick="radians()"></td>
+              <td><input class="button" type="button" value="deg" onclick="degrees()"></td>
+
+          </tr>
+              <tr>
+                  <td><input class="button" type="button" value="." onkeypress="insert('.')" onclick="insert('.')" ></td>
+                  <td><input class="button" type="button" value="0" onkeypress="insert(0)" onclick="insert(0)" ></td>
+                  <td><input class="button" type="button" value="π" onclick="insert('π')"></td>
+                  <td><input class="button" type="button" value="e" onclick="insert('e')"></td>
+                  <td colspan="2"><input class="button1" id="equalbutton" style="width: 16.4rem;" type="button" value="="  onclick="equal()"></td>
+    
+              </tr>
+          </table>
+          </div>
+    <footer class="ft">
+      &copy; 2021-2022  Madhurendra Nath Tiwari
+    </footer>
+    </div>
+    <script src="scientific_calc.js"></script>
+</body>
+</html>

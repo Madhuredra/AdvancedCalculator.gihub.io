@@ -1,0 +1,53 @@
+body{
+    background:linear-gradient(to bottom left ,lightyellow,pink);
+}
+.choose{
+    text-align: center;
+    margin-bottom: 150px;
+}
+button{
+    border-color:black;
+    height: 30px;
+    width: 150px;
+    border-radius: 6vw;
+    font-weight: bolder;
+    background-color:transparent;
+}
+button:hover{
+    background:linear-gradient(to right,black,black);
+    color: #FFF;
+}
+.ml10 {
+    position: relative;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 3em;
+  }
+  
+  .ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml10 .letter {
+    display: inline-block;
+    line-height: 0.5rem;
+    transform-origin: 0 0;
+  }
+  @keyframes example {
+	0%   {color: red;font-style: sans-serif;}
+	25%  {color: yellow;}
+	50%  {color: blue;}
+	100% {color: rgb(0, 13, 128);}
+  }
+footer{
+	animation-name: example;
+	animation-delay: 2s;
+  	animation-duration:20s;
+	animation-direction: reverse;
+}

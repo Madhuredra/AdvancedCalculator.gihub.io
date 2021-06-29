@@ -1,0 +1,36 @@
+.main{
+    width: 500px;
+    margin-left: 350px;
+    margin-top: 200px;
+    background:linear-gradient(to bottom left,#FFAEBC,#A0E7E5);
+    background-size: 610px;
+    padding-inline-end: 1vw;
+}
+html{
+    background:linear-gradient(to left,#5885AF,#E8B4B8);
+}
+button{
+    width: 140px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+button:hover{
+    border-radius: 20px;
+    background-color: black;
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+
+}
+#DOB{
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: slategrey;
+    color: #FFF;
+    
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="dec2bin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <title>Binary To Decimal Converter</title>
+</head>
+<body>
+    <div class="main">
+        <form name="form">
+            <div class="calc">
+                <input style="width: 570px;" class="textview" name="textview"></input><br>
+            </div>
+            </form>
+            <div class="bg">
+                <table>
+                    <tr>
+                        <td><input class="button" type="button" value="0" onclick="insert('0')"></td>
+                        <td><input class="button" type="button" value="1" onclick="insert('1')"></td>
+                        <td><input class="button" type="button" value="C" onclick="move()"></td>
+                        <td><input class="button" type="button" value="÷" onclick="insert('/')"></td>
+    
+    
+                    </tr>
+                    <tr>
+                        <td><input class="button" type="button" value="AND" onclick="insert('&')"></td>
+                        <td><input class="button" type="button" value="OR" onclick="insert('||')"></td>
+                        <td><input class="button" type="button" value="NOT" onclick="insert('~')"></td>
+                        <td><input class="button" type="button" value="+" onclick="insert('+')"></td>
+    
+                    </tr>
+                    <tr>
+                        <td><input class="button" type="button" value="NAND" onclick=""></td>
+                        <td><input class="button" type="button" value="NOR" onclick=""></td>
+                        <td><input class="button" type="button" value="XOR" onclick="insert('xor')"></td>
+                        <td><input class="button" type="button" value="-" onclick="insert('-')"></td>
+    
+    
+                    </tr>
+                    <tr>
+                        <td><input class="button" type="button" value="<<" onclick="insert('<<')"></td>
+                        <td><input class="button" type="button" value=">>" onclick="insert('>>')"></td>
+                        <td><input class="button" type="button" value=">>>" onclick="insert('>>>')"></td>
+                        <td><input class="button" type="button" value="x" onclick="insert('*')"></td>
+    
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input style="width: 16rem;" class="button" type="button" value="Binary To Decimal"  onclick="bin2dec()"></td>
+                        <td><input class="button" type="button" value="AC"  onclick="cl()"></td>
+                        <td><input class="button1" type="button" value="=" onclick="eval()"></td>
+                        
+                    </tr>
+                </table>
+            </div>
+        </div>
+    <script src="bin2dec.js"></script>
+</body>
+</html>
